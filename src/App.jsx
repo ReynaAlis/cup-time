@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import { Footer } from "./modules/Footer";
 import { Header } from "./modules/Header";
 import { Main } from "./modules/Main";
@@ -5,15 +6,15 @@ import { Main } from "./modules/Main";
 function App() {
 
   return (
-    <>
-    <Header />
+    <BrowserRouter>
+      <Header />
 
-    <Main />
+      <Main />
 
-    <Footer />
+      <Footer />
 
-    </>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

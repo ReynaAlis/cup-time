@@ -19,7 +19,7 @@ export const Products = () => {
                 <h2 className="products__title">Чай</h2>
 
                 <ul className="products__list">
-                    {!products.length ? products.map((item) => (<Product key={item.id} data={item} />)) : <SkeletonLoader />}
+                    {products.length ? products.map((item) => (<Product key={item.id} data={item} />)) : <SkeletonLoader />}
                 </ul>
             </div>
         </section>

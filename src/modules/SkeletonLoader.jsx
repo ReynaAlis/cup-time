@@ -8,7 +8,7 @@ export const SkeletonLoader = ({ count = 6 }) => (
                     speed={2}
                     viewBox='0 0 420 600'
                     backgroundColor="#6cb9ab"
-                    foregroundColor="#64099b">
+                    foregroundColor="#e97547">
                     <rect x="0" y="0" width="100%" height="70%" rx="10" ry="10" />
                     <rect x="24" y="calc(70% + 30px)" width="80%" height="30px" rx="5" ry="5" />
                     <rect x="24" y="calc(70% + 80px)" width="40%" height="25px" rx="5" ry="5" />

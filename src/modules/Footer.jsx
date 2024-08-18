@@ -1,26 +1,28 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => (
     <footer className="footer">
         <div className="container footer__container">
-            <a className="footer__logo-link">
+            <Link to="/" className="footer__logo-link">
                 <img className="footer__logo" src="image/logo.svg" alt="Логотип магазина Cup Time" />
-            </a>
+            </Link>
 
             <div className="footer__nav">
                 <ul className="footer__menu">
                     <li className="footer__menu-item">
-                        <a className="footer__menu-link" href="#!">Чай</a>
+                        <Link className="footer__menu-link" to="/products?category=tea">Чай</Link>
                     </li>
                     <li className="footer__menu-item">
-                        <a className="footer__menu-link" href="#!">Кофе</a>
+                        <Link className="footer__menu-link" to="/products?category=coffee">Кофе</Link>
                     </li>
                     <li className="footer__menu-item">
-                        <a className="footer__menu-link" href="#!">Чайники</a>
+                        <Link className="footer__menu-link" to="/products?category=teapots">Чайники</Link>
                     </li>
                     <li className="footer__menu-item">
-                        <a className="footer__menu-link" href="#!">Турки</a>
+                        <Link className="footer__menu-link" to="/products?category=cezves">Турки</Link>
                     </li>
                     <li className="footer__menu-item">
-                        <a className="footer__menu-link" href="#!">Прочее</a>
+                        <Link className="footer__menu-link" to="/products?category=other">Прочее</Link>
                     </li>
                 </ul>
             </div>

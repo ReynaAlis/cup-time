@@ -29,12 +29,12 @@ export const Footer = () => (
                 <p className="footer__copyright">&#169;CUPTIME, 2024</p>
 
                 <ul className="footer__developers">
-                    <li className="footer__developer">Designer:
-                        <a className="footer__developer-link" href="https://t.me/Mrshmallowww" target="_blank">Anastasia
+                    <li className="footer__developer">Designer: 
+                        <a className="footer__developer-link" href="https://t.me/Mrshmallowww" target="_blank"> Anastasia
                             Ilina</a>
                     </li>
-                    <li className="footer__developer">Developer:
-                        <a className="footer__developer-link" href="https://t.me/alien_allena" target="_blank">Elena
+                    <li className="footer__developer">Developer: 
+                        <a className="footer__developer-link" href="https://t.me/alien_allena" target="_blank"> Elena
                             Smirnova</a>
                     </li>
                 </ul>
